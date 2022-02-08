@@ -25,8 +25,6 @@ function calculate() {
       if (e.which == 13) {
         let input1 = document.getElementById("var-input-1").value
         let v1 = parseInt(input1)
-        console.log(v1)
-        
         let input2 = document.getElementById("var-input-2").value
         let v2 = parseInt(input2)
         let input3 = document.getElementById("var-input-3").value
@@ -48,8 +46,6 @@ function calculate() {
     if (e.which == 13) {
       let input1 = document.getElementById("var-input-1").value
       let v1 = parseInt(input1)
-      console.log(v1)
-      
       let input2 = document.getElementById("var-input-2").value
       let v2 = parseInt(input2)
       let input3 = document.getElementById("var-input-3").value
@@ -71,8 +67,6 @@ $("#var-input-2").keypress(function (e) {
     if (e.which == 13) {
       let input1 = document.getElementById("var-input-1").value
       let v1 = parseInt(input1)
-      console.log(v1)
-      
       let input2 = document.getElementById("var-input-2").value
       let v2 = parseInt(input2)
       let input3 = document.getElementById("var-input-3").value
@@ -94,8 +88,6 @@ $("#var-input-1").keypress(function (e) {
     if (e.which == 13) {
       let input1 = document.getElementById("var-input-1").value
       let v1 = parseInt(input1)
-      console.log(v1)
-      
       let input2 = document.getElementById("var-input-2").value
       let v2 = parseInt(input2)
       let input3 = document.getElementById("var-input-3").value
@@ -117,13 +109,14 @@ $("#var-input-1").keypress(function (e) {
 
 function sho() {
     document.getElementById('tag').hidden = false;
-    if (document.getElementById('tag1').hidden == false) {
-        document.getElementById('tag1').hidden = true;
-    }
+    document.getElementById('soln').hidden = false;
+    document.getElementById('tag1').hidden = true;
 }
 
 function sho2() {
     document.getElementById('tag1').hidden = false;
+    document.getElementById('tag').hidden = true;
+    document.getElementById('soln').hidden = true;
 }
 
 $(document).ready(function () {
