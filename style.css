@@ -6,8 +6,7 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     font-family: American Typewriter, serif;   
-    align-items: center; 
-    justify-content: center;
+    text-align: center; 
 }
 
 .maintitle {
@@ -19,7 +18,8 @@ body {
     margin: auto;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    width: 25%;
     border-color: rgb(0,0,0);
 }
 
