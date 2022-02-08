@@ -1,12 +1,25 @@
 body {
-    background-color: #1f2933;
+    background-color: rgb(96,52,28);
     color: #f5f7fa;
     padding-top: 0;
     padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: American Typewriter, serif;   
+    align-items: center; 
+    justify-content: center;
 }
 
 .maintitle {
-    width: 20%;
-    margin-left: 45%;
-    margin-right: 40%;
+    margin: auto;
 }
+
+.variable {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-color: rgb(0,0,0);
+}
+
