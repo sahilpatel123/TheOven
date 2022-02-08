@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="path/to/chartjs/dist/chart.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/1d1dcdf7db.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class='maintitle'><h1>Climate Calculator</h1> </div>
+
+    <div class="variablecontainer">
+        <form id="variable-form">
+            <div class="variable" id="variable1">
+                <div id="var-title-1"><p class='paragraph'> Variable 1</p></div>
+                <input type="text" class="var-input" id='var-input-1' placeholder="100">
+            </div>
+            <div class="variable" id="variable2">
+                <div id="var-title-2"><p class='paragraph'> Variable 2</p></div>
+                <input type="text" class="var-input" id='var-input-2' placeholder="99">
+            </div>
+            <div class="variable" id="variable3">
+                <div id="var-title-3"><p class='paragraph'> Variable 3</p></div>
+                <input type="text" class="var-input" id='var-input-3' placeholder="98">
+            </div>
+            <div class="variable" id="variable4">
+                <div id="var-title-4"><p class='paragraph'> Variable 4</p></div>
+                <input type="text" class="var-input" id='var-input-4' placeholder="97">
+            </div>
+            <button class="button" type="button" id="calculator-button">Calculate</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
